@@ -167,7 +167,10 @@ aside {
     font-weight:400;
     margin-top:10px;
 }
-
+.Home ,.Shorts,.Subscriptions,.You,.download { /* Aside buttons Modifications*/
+    width:100%;
+    border-radius:5px;
+}
 /* Section- tags */
 section {
     margin-top:20px;
@@ -355,6 +358,11 @@ main {
 @media (max-width:450px) {
     .search button {
         display:none;
+    }
+    .search input {
+        border-top-right-radius:20px;
+        border-bottom-right-radius:20px;
+        border-right-color:#ccc;
     }
     #i {
         display: none;

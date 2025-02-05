@@ -1,0 +1,365 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container {
+    border:10px solid #1d1e4c;
+    min-height:100vh; /* to avoid shortage of container we give min height and it expand as add more content*/ 
+    width:100%;
+    background-color:#e5e5fd;
+    /* overflow-y:auto; */  /* we can use this also to avoid overflow */ 
+}
+.main {
+    width:60%;  /* Now width is set w.r.t container(better for resposnsive ness) */
+    margin:100px auto;
+    /*height:calc(100% - 200px);  /* overflow occure of 200px because of margin of 100px from bottom and Top and we set height 100% of container */
+    /* Adjust height to fit within the container */
+}
+.header {
+    height:300px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+.image {
+    height:300px;
+    width:300px;
+    border-radius:50%;
+}
+.image img {
+    height:100%;
+    width:100%;
+    border-radius:50%;
+}
+.name h1{
+    font-size:50px;
+    font-weight: bold;
+    text-transform:uppercase;
+    color:#1d1e4c;
+    text-align:end;
+}
+.name p {
+    font-weight:bold;
+    font-size:30px;
+    text-align:end;
+}
+.content {
+    margin-top:50px;
+}
+.content h2 {
+    font-size:70px;
+    font-weight:normal;
+    margin-bottom:20px;
+}
+.content p {
+    font-size:20px;
+    line-height:30px;
+    letter-spacing:1.2px;
+    text-align:justify;
+} 
+.biography h3 {
+    margin-top:50px;
+    font-size:19px;
+    margin-bottom:20px;
+}
+.biography ul {
+    margin-left:50px;
+    font-size:15px;
+    line-height:30px;
+}
+footer {
+    text-align:end;
+    margin-top:50px;
+}
+.Owner {
+    background-color: #1d1e4c;
+    color:white;
+    text-align: center;
+}
+@media (max-width:1400px) {
+    .name h1{
+        font-size:45px;
+    }
+    .name P {
+        font-size:none; 
+    }
+}
+@media (max-width:1320px) {
+    .name h1{
+        font-size:40px;
+    }
+}
+@media (max-width:1250px) {
+    .name h1{
+        font-size:35px;
+    }
+}
+@media (max-width:1130px) {
+    .content h2 {
+        font-size:60px;
+    }
+    .name h1{
+        font-size:30px;
+    }
+    .name p{
+        font-size:25px;
+    }
+}
+@media (max-width:1045px) {
+    .content h2 {
+        font-size:55px;
+    }
+    .name h1{
+        font-size:25px;
+    }
+    .name p {
+        font-size:20px;
+    }
+}
+@media (max-width:960px) {
+    .content h2 {
+        font-size:55px;
+    }
+    .name h1{
+        font-size:22px;
+    }
+    .name p {
+        font-size:20px;
+    }
+    .image {
+        height:250px;
+        width:250px;
+    }
+}
+@media (max-width:880px) {
+    .content h2 {
+        font-size:50px;
+    }
+    .name h1{
+        font-size:19px;
+    }
+    .name p {
+        font-size:15px;
+    }
+    .image {
+        height:200px;
+        width:200px;
+    }
+    .content p{
+        font-size:18px;
+    } 
+
+}
+@media (max-width:721px) {
+    .content h2 {
+        font-size:45px;
+    }
+    .name h1{
+        font-size:20px;
+    }
+    .name p {
+        font-size:15px;
+    }
+    .image {
+        height:200px;
+        width:200px;
+    }
+    .content p{
+        font-size:15px;
+    } 
+
+}
+@media (max-width:700px) {
+    .content h2 {
+        font-size:40px;
+    }
+    .name h1{
+        font-size:15px;
+    }
+    .name p {
+        font-size:15px;
+    }
+    .image {
+        height:150px;
+        width:150px;
+    }
+    .content p{
+        font-size:13px;
+    } 
+    .biography h3 {
+        font-size:15px;
+    }
+    .biography ul {
+        font-size:13px;
+    }
+
+}
+@media (max-width:590px) {
+    .content h2 {
+        font-size:35px;
+    }
+    .name h1{
+        font-size:15px;
+    }
+    .name p {
+        font-size:15px;
+    }
+    .image {
+        height:150px;
+        width:150px;
+    }
+    .content p{
+        font-size:13px;
+    } 
+    .biography h3 {
+        font-size:15px;
+    }
+    .biography ul {
+        font-size:13px;
+    }
+    footer {
+        font-size:15px;
+    }
+    
+
+}
+@media (max-width:555px) {
+    .content h2 {
+        font-size:35px;
+    }
+    .name h1{
+        font-size:12px;
+    }
+    .name p {
+        font-size:12px;
+    }
+    .image {
+        height:120px;
+        width:120px;
+    }
+    .content p{
+        font-size:12px;
+    } 
+    .biography h3 {
+        font-size:12px;
+    }
+    .biography ul {
+        font-size:10px;
+    }
+    footer {
+        font-size:10px;
+    }
+}
+@media (max-width:510px) {
+    .content h2 {
+        font-size:30px;
+    }
+    .name h1{
+        font-size:12px;
+    }
+    .name p {
+        font-size:12px;
+    }
+    .image {
+        height:120px;
+        width:120px;
+    }
+    .content p{
+        font-size:10px;
+    } 
+    .biography h3 {
+        font-size:12px;
+    }
+    .biography ul {
+        font-size:10px;
+    }
+    footer {
+        font-size:10px;
+    }
+}
+@media (max-width:440px) {
+    .content h2 {
+        font-size:25px;
+    }
+    .name h1{
+        font-size:12px;
+    }
+    .name p {
+        font-size:12px;
+    }
+    .image {
+        height:100px;
+        width:100px;
+    }
+    .content p{
+        font-size:10px;
+    } 
+    .biography h3 {
+        font-size:12px;
+    }
+    .biography ul {
+        font-size:10px;
+    }
+    footer {
+        font-size:10px;
+        text-align:center;
+    }
+}
+@media (max-width:410px) {
+    .content h2 {
+        font-size:25px;
+    }
+    .name h1{
+        font-size:10px;
+    }
+    .name p {
+        font-size:10px;
+    }
+    .image {
+        height:90px;
+        width:90px;
+    }
+    .content p{
+        font-size:10px;
+    } 
+    .biography h3 {
+        font-size:12px;
+    }
+    .biography ul {
+        font-size:10px;
+    }
+    footer {
+        font-size:10px;
+        text-align:center;
+    }
+}
+@media (max-width:375px) {
+    .content h2 {
+        font-size:25px;
+    }
+    .name h1{
+        font-size:10px;
+    }
+    .name p {
+        font-size:10px;
+    }
+    .image {
+        height:90px;
+        width:90px;
+    }
+    .content p{
+        font-size:10px;
+    } 
+    .biography h3 {
+        font-size:12px;
+    }
+    .biography ul {
+        font-size:10px;
+    }
+    footer {
+        font-size:8px;
+        text-align:center;
+    }
+}

@@ -1,0 +1,84 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+html , body{
+    height:100%;
+    font-size:16px;
+    font-weight:400;
+    line-height:1.8em;
+    font-family:"Lato", serif;
+    color:#666;
+}
+.image1{
+    height: 100%;
+    background-image:url("/Project 3/images/image1.png");
+}
+.image2{
+    min-height: 400px;
+    background-image:url("/Project 3/images/image2.png");
+}
+.image3{
+    min-height: 400px;
+    background-image:url("/Project 3/images/image3.png");
+}
+.image1 , .image2, .image3 {
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext {
+    position:absolute;
+    top:50%;
+    width: 100%;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:27px;
+    letter-spacing:8px;
+    color:black;
+}
+.ptext span {
+    color:white;
+    background-color: #313131;
+    padding:20px;
+}
+.section {
+    padding:50px 90px;
+    text-align:center;
+}
+.sec-one {
+    background-color: #f4f4f4;
+    color:#666;
+}
+.sec-one h2 {
+    margin-bottom:20px;
+}
+.sec-two ,.sec-three {
+    background-color: #282e34;;
+    color:#f4f4f4;
+}
+.sec-two h2 ,.sec-three h2 {
+    margin-bottom:20px;
+}
+
+@media (max-width:570px) {
+    .ptext span {
+        width:50%;
+        font-size:20px;
+    }
+}
+@media (max-width:470px) {
+    .ptext span {
+        width:50%;
+        font-size:15px;
+    }
+}
+@media (max-width:410px) {
+    .ptext span {
+        width:50%;
+        font-size:12px;
+    }
+}

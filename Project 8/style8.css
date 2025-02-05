@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+section {
+    scroll-margin: 50px;
+}
+/* aside  */
+aside {
+    border-right:1px solid #ccc;
+    /* border:2px solid black; */
+    max-width:280px;
+    height:100vh;
+    position:fixed;
+    top:0;
+}
+aside h1 {
+    padding:10px;
+    font-weight:300;
+    border-bottom:1px solid #ccc;
+}
+aside li {
+    padding:10px;
+    color:black;
+    border-bottom:1px solid #ccc;
+}
+aside ul li:hover {
+    background-color: #ccc;
+    transition:all 0.3s ease-in-out;
+}
+aside ul a{
+    text-decoration:none;
+}
+
+/* main */
+main {
+    /* border:2px solid black; */
+    margin-left:300px;
+    height:100%;
+    max-width:1220px;
+    padding:40px;
+    padding-top:50px;
+    font-size:14px;
+    line-height:1.6;
+}
+main section {
+    min-width:300px;
+    padding:20px;
+}
+
+main h2 {
+    border-bottom:1px solid #ccc;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.content {
+    /* border: 1px solid red; */
+    padding-left:10px;
+    margin-bottom:40px;
+}
+.content p {
+    margin-bottom:20px;
+}
+.list {
+    padding-left:20px;
+}
+.list li {
+    padding-bottom:10px;
+}
+.code {
+    background-color: #f7f7f7;
+    padding: 20px 15px;
+    border-radius:10px;
+    margin-left:10px;
+    margin-top:30px;
+    margin-bottom:30px;
+    line-height:2;
+}
+
+/* responsivness */
+@media (max-width:800px) {
+    aside {
+        width:250px;
+    }
+    main {
+        margin-left:280px;
+    }
+}
+@media (max-width:700px) {
+    aside {
+        width:200px;
+    }
+    main {
+        margin-left:230px;
+    }
+}
+@media (max-width:600px) {
+    aside {
+        width:150px;
+    }
+    main {
+        margin-left:180px;
+    }
+    aside h1 {
+        font-size:20px;
+    }
+}

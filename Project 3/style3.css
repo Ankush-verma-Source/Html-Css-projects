@@ -64,10 +64,18 @@ html , body{
     margin-bottom:20px;
 }
 
+@media (max-width:600px) {
+    .image1 .Ltext span {
+        font-size:19px;
+    }
+}
 @media (max-width:570px) {
     .ptext span {
-        width:50%;
+        width:40%;
         font-size:20px;
+    }
+    .image1 .Ltext span {
+        font-size:16px;
     }
 }
 @media (max-width:470px) {
@@ -75,10 +83,19 @@ html , body{
         width:50%;
         font-size:15px;
     }
+    .image1 .Ltext span {
+        font-size:12px;
+    }
 }
 @media (max-width:410px) {
     .ptext span {
         width:50%;
         font-size:12px;
+    }
+    .image1 .Ltext span {
+        /* width:300px; */
+        /* left:100px; */
+        /* margin:0 auto; */
+        font-size: 10px;
     }
 }

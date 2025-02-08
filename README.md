@@ -9,4 +9,5 @@
 - Project 7 - Youtube Clone
 - Project 8 - Javascript Documentation
 - Project 9 - Blog Wesbite
-- Project 10 - Portfolio Website
+- Project 10 - Spotify Clone
+- Project 11 - Portfolio Website

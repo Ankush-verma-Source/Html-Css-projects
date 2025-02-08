@@ -10,4 +10,5 @@
 - Project 8 - Javascript Documentation
 - Project 9 - Blog Wesbite
 - Project 10 - Spotify Clone
-- Project 11 - Portfolio Website
+- Project 11 - BootStrap website
+- Project 12 - Portfolio Website

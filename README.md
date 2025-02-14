@@ -12,4 +12,5 @@
 - Project 10 - Spotify Clone
 - Project 11 - BootStrap Blog website
 - Project 12 - BootStrap Gym website
-- Project 13 - Portfolio Website
+- Project 13 - Netflix Clone
+- Project 14 - Portfolio Website
